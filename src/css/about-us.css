@@ -67,4 +67,8 @@
     .about-text-wrap {
         column-gap: 40px;
     }
+    .about-gif{
+        display: flex;
+        justify-content: end;
+    }
 }
