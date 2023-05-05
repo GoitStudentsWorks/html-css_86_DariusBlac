@@ -30,8 +30,13 @@
   --primary-text-color: #141414;
   --secondary-text-color: #1e2827;
   --text-color-rgb: rgba(20, 20, 20, 0.5);
+  --title-color-rgb: rgba(20, 20, 20, 0.4);
   --white: #ffffff;
+  --background-color-hero: #141414;
+  --background-color-footer: #1e2827;
+  --time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 body {
   font-family: 'Epilogue', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -39,4 +44,30 @@ body {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--primary-text-color);
+
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 744px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1216px;
+  }
 }
