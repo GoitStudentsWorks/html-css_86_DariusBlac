@@ -65,6 +65,8 @@ pre {
 /* ---------------MY STYLES RESET---------------- */
 .catalog-section {
   background-color: var(--white);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .catalog-title {
   font-weight: 600;
@@ -191,6 +193,10 @@ pre {
   .container {
     width: 768px;
     padding: 0 32px;
+  }
+  .catalog-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
   .catalog-card-list {
     display: flex;
