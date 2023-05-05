@@ -1,0 +1,92 @@
+<section class="section-hero">
+  <div class="hero-container">
+    <h1 class="hero-title">Welcome to our collection of premium watches</h1>
+
+    <!-- Slider main container -->
+    <div class="swiper mySwiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./img/hero/img-1_tab-desk@1x.png 1x,
+                ./img/hero/img-1_tab-desk@1x.png 2x
+              "
+              media="(min-width=768px)"
+            />
+            <source
+              srcset="
+                ./img/hero/img-1_mob@1x.png 1x,
+                ./img/hero/img-1_mob@1x.png 2x
+              "
+              media="(max-width=767px)"
+            />
+            <img
+            srcset="
+            ./img/hero/img-1_mob@1x.png 226w,
+            ./img/hero/img-1_tab-desk@1x.png 348w
+            "
+            src="./img/hero/img-1_mob@1x.png"
+            alt="#"            
+          />
+          </picture>          
+        </div>        
+      </div>
+
+      <div class="swiper-btn-pagination">
+        <div class="swiper-buttons">
+          <button class="swiper-btn-prev" type="button">prev</button>
+          <button class="swiper-btn-next" type="button">next</button>
+        </div>
+        <div class="swiper-pagination">
+            <span class="swiper-pagination-current">01</span>
+            <span class="swiper-pagination-line">---</span>
+            <span class="swiper-pagination-total">05</span>
+        </div>
+      </div>      
+    </div>
+
+    <p class="hero-text">
+      Our watches are not just timepieces, but also an expression of your
+      personality and lifestyle. From classic designs to modern ones, we have a
+      watch to suit every taste and occasion.
+    </p>
+
+    <div class="hero-img">
+      <picture>
+        <source
+          srcset="
+            ./img/hero/main-img_desk@1x.jpg 1x,
+            ./img/hero/main-img_desk@2x.jpg 2x
+          "
+          media="(min-width=1280px)"
+        />
+        <source
+          srcset="
+            ./img/hero/main-img_tab@1x.jpg 1x,
+            ./img/hero/main-img_tab@2x.jpg 2x
+          "
+          media="(min-width=768px)"
+        />
+        <source
+          srcset="
+            ./img/hero/main-img_mob@1x.jpg 1x,
+            ./img/hero/main-img_mob@2x.jpg 2x
+          "
+          media="(max-width=767px)"
+        />
+        <img
+        srcset="
+        ./img/hero/main-img_mob@1x.jpg 335w,
+        ./img/hero/main-img_tab@1x.jpg 704w,
+        ./img/hero/main-img_desk@1x.jpg 676w
+        "
+        src="./img/hero/main-img_mob@1x.jpg"
+        alt="#"      
+      />
+      </picture>      
+    </div>
+  </div>
+</section>
