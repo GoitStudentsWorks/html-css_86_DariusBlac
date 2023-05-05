@@ -184,11 +184,12 @@
   }
 
   .modal-form {
+    width: 368px;
     margin: 0;
   }
 
   .modal-label {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.29;
   }
 
@@ -200,5 +201,29 @@
   .modal-textarea::placeholder {
     font-size: 16px;
     line-height: 1.12;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal {
+    width: 904px;
+    height: 694px;
+    gap: 40px;
+  }
+
+  .modal-form {
+    width: 508px;
+  }
+
+  .modal-btn {
+    margin-top: 40px;
+  }
+
+  .modal-input {
+    margin-bottom: 24px;
+  }
+
+  .modal-policy-text {
+    width: 375px;
   }
 }
