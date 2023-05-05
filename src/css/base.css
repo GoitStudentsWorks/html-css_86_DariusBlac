@@ -34,6 +34,7 @@
   --white: #ffffff;
   --background-color-hero: #141414;
   --background-color-footer: #1e2827;
+  --time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
