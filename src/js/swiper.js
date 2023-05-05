@@ -22,8 +22,4 @@ return (d < 10) ? '0' + d.toString() : d.toString();
       nextEl: '.swiper-btn-next',
       prevEl: '.swiper-btn-prev',
     },
-  
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
   });
