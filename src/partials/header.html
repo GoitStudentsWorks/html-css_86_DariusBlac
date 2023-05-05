@@ -2,8 +2,11 @@
   <div class="header-container container">
     <nav class="header-nav">
       <a class="header-logo link" href="">
-        <svg width="14" height="14"></svg>thewatchspot</a
-      >
+        <svg class="header-logo-icon" width="14" height="14">
+          <use href="../img/icons.svg#logo-mobil"></use>
+        </svg>
+        thewatchspot
+      </a>
       <ul class="header-list list">
         <li class="header-item">
           <a class="header-link link" href="">About us</a>
@@ -19,13 +22,22 @@
 
     <a class="header-tel link" href="tel:+380684439426">+380 (68) 443-94-26</a>
 
-    <button class="header-btn-open js-open-menu">
-      <svg width="24" height="24"></svg>
+    <button
+      class="header-btn-open js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="header-open-icon" width="24" height="24">
+        <use href="../img/icons.svg#mebu-mobil"></use>
+      </svg>
     </button>
   </div>
-  <div class="mobile-menu js-menu-container">
+  <div class="mobile-menu js-menu-container" id="mobile-menu">
     <button class="mobile-menu-btn js-close-menu">
-      <svg width="24" height="24">x</svg>
+      <svg class="header-open-icon" width="24" height="24">
+        <use href="../img/icons.svg#close-mobil"></use>
+      </svg>
     </button>
     <nav class="menu-nav">
       <a class="menu-logo link" href="">
