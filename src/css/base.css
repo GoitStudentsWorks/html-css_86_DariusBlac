@@ -32,8 +32,8 @@
   --text-color-rgb: rgba(20, 20, 20, 0.5);
   --title-color-rgb: rgba(20, 20, 20, 0.4);
   --white: #ffffff;
-  --background-color-hero: #141414;
-  --background-color-footer: #1e2827;
+  --background-color-black: #141414;
+  --background-color-dark-green: #1e2827;
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
