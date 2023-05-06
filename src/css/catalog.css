@@ -115,7 +115,7 @@ pre {
 
   background-color: var(--secondary-text-color);
   border-radius: 8px;
-  border: none;
+  border: 1px solid transparent;
   color: var(--white);
   font-family: inherit;
   font-weight: 400;
