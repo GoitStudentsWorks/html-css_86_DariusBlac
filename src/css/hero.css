@@ -1,7 +1,7 @@
 .section-hero {
   padding-top: 69px;
   padding-bottom: 40px;
-  background-color: var(--background-color-hero);
+  background-color: var(--background-color-black);
 }
 
 .hero-title {
@@ -28,7 +28,7 @@
   align-items: center;
   height: 200px;
 
-  background-color: #1e2827;
+  background-color: var(--background-color-dark-green);
 }
 
 .swiper-slide img {
@@ -175,8 +175,7 @@
     margin-bottom: 0;
   }
 
-  .hero-description {
-    position: absolute;
+  .hero-description {   
     top: 0;
     left: 914px;
 
