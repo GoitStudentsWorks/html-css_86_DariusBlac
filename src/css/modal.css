@@ -1,4 +1,4 @@
-.dackdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,6 +8,10 @@
   z-index: 2;
 
   background-color: rgba(46, 47, 66, 0.4);
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .backdrop.is-hidden {
