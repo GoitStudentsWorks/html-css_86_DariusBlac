@@ -28,7 +28,7 @@
 
 :root {
   --primary-text-color: #141414;
-  --secondary-text-color: #1e2827;
+  --secondary-text-color: rgb(30, 40, 39);
   --text-color-rgb: rgba(20, 20, 20, 0.5);
   --title-color-rgb: rgba(20, 20, 20, 0.4);
   --white: #ffffff;
