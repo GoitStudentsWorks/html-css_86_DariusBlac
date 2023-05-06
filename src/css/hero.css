@@ -1,6 +1,6 @@
 .section-hero {
-  padding-top: 80px;
-  padding-bottom: 64px;
+  padding-top: 69px;
+  padding-bottom: 40px;
   background-color: var(--background-color-hero);
 }
 
@@ -17,10 +17,8 @@
 .swiper {
   display: inline-block;
   width: 266px;
-  height: auto;
-
+  margin-left: 0;
   margin-bottom: 40px;
-
   background-color: transparent;
 }
 
@@ -28,13 +26,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 
   background-color: #1e2827;
 }
 
 .swiper-slide img {
   width: 226px;
-  height: 200px;
 }
 
 .swiper-btn-pagination {
@@ -52,7 +50,7 @@
 .swiper-btn {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 
   width: 32px;
   height: 32px;
@@ -67,7 +65,7 @@
   border: 1px solid var(--white);
   transition-property: stroke, border;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--time-function);
 }
 
 .swiper-pagination {
@@ -83,8 +81,7 @@
 }
 
 .swiper-pagination-line {
-  position: absolute;
-  content: '';
+  position: absolute;  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -93,10 +90,102 @@
   border: 1px solid var(--white);
 }
 
-.hero-text {
+.hero-description {  
+  margin-bottom: 40px;
   width: 248px;
   margin-left: auto;
-  margin-bottom: 40px;
+}
+
+.hero-text {
   font-weight: 300;
   color: var(--white);
+}
+
+/* Media rules */
+
+@media screen and (min-width: 768px) {
+  .section-hero {
+    padding-top: 80px;
+    padding-bottom: 64px;
+  }
+
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-title {
+    width: 653px;
+    font-size: 60px;
+  }
+
+  .swiper {
+    width: 436px;
+  }
+
+  .swiper-slide {
+    height: 255px;
+  }
+
+  .swiper-slide img {
+    width: 348px;
+  }
+
+  .swiper-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .btn-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .swiper-pagination {
+    width: 94px;
+  }
+
+  .swiper-pagination-line {
+    width: 40px;
+  }
+
+  .hero-description {
+    position: absolute;
+    top: 316px;
+    left: 476px;
+
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-hero {    
+    padding-bottom: 80px;
+  }
+
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-title {
+    width: 750px;
+    margin-bottom: 122px;
+  }
+
+  .swiper {
+    margin-bottom: 0;
+  }
+
+  .hero-description {
+    position: absolute;
+    top: 0;
+    left: 914px;
+
+    width: 282px;
+  }
+
+  .hero-img {
+    position: absolute;
+    left: 520px;
+    bottom: 0;
+  }
 }
