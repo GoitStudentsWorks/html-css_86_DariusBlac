@@ -36,6 +36,28 @@
 
   color: #ffffff;
 }
+/*Animation*/
+.nav-text-footer {
+  position: relative;
+}
+
+.nav-text-footer:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  margin: -5px 0;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.4s ease-in-out 0s;
+}
+.nav-text-footer:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+/**/
 .address-footer {
   margin-bottom: 40px;
   margin-top: 40px;
