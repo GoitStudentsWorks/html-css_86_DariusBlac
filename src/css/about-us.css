@@ -22,6 +22,11 @@
 }
 .about-gif{
     margin-top: 40px;
+    max-width: 335px;
+    height: 365px;
+    background-image: url(../img/watch.gif);
+    background-position: center;
+    background-size: cover;
 }
 @media screen and (min-width: 768px) {
     .about-main-wrap{
@@ -49,6 +54,11 @@
         padding-top: 64px;
         padding-bottom: 64px;
     }
+    .about-gif {
+        max-width: unset;
+        width: 704px;
+        height: 465px;
+    }
 }
 @media screen and (min-width: 1280px) {
     .sections-about {
@@ -68,7 +78,8 @@
         column-gap: 40px;
     }
     .about-gif{
-        display: flex;
-        justify-content: end;
+        width: 892px;
+        height: 500px;
+        margin-left: auto;
     }
 }
