@@ -1,5 +1,5 @@
 .header-page {
-  background-color: var(--background-color-hero);
+  background-color: var(--background-color-black);
 }
 .header-container {
   display: flex;
@@ -43,7 +43,7 @@
   width: 100vw;
   height: 100vh;
   padding: 29px 20px;
-  background-color: var(--secondary-text-color);
+  background-color: var(--background-color-dark-green);
   z-index: 999;
   text-align: center;
   transform: translateX(100%);
