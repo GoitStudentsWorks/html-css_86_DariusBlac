@@ -23,10 +23,11 @@
     <a class="header-tel link" href="tel:+380684439426">+380 (68) 443-94-26</a>
 
     <button
-      class="header-btn-open js-open-menu"
+      class="header-btn-open"
       type="button"
       aria-expanded="false"
       aria-controls="mobile-menu"
+      data-menu-open
     >
       <svg class="header-open-icon" width="24" height="24">
         <use href="./img/icons.svg#menu-mobile"></use>
@@ -34,9 +35,9 @@
     </button>
   </div>
 
-  <div class="mobile-container js-menu-container" id="mobile-menu">
+  <div class="mobile-container" id="mobile-menu" data-menu>
     <div class="mobile-menu">
-      <button class="mobile-menu-btn js-close-menu">
+      <button class="mobile-menu-btn is-open" data-menu-close>
         <svg class="mobile-close-icon" width="24" height="24">
           <use href="./img/icons.svg#close-mobil"></use>
         </svg>
