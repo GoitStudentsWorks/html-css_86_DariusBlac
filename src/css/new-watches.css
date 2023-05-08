@@ -53,6 +53,7 @@
     font-size: 40px;
     line-height: 1.1;
     color: var(--secondary-text-color);
+    margin-bottom: 80px;
   }
   .new-watches-list {
     gap: 24px;

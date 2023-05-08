@@ -107,7 +107,7 @@
     display: none;
   }
   .header-container {
-    padding-top: 29px;
+    padding-top: 20px;
   }
   .header-nav {
     display: flex;
@@ -160,6 +160,8 @@
 
   .header-link {
     position: relative;
+    letter-spacing: normal;
+    padding: 10px 0;
   }
 
   .header-link:before {
