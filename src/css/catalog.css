@@ -166,6 +166,10 @@ pre {
     padding-top: 64px;
     padding-bottom: 64px;
   }
+  .catalog-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
   .catalog-card-list {
     display: flex;
     flex-wrap: wrap;
@@ -189,6 +193,9 @@ pre {
 @media screen and (min-width: 1280px) {
   .catalog-section {
     padding: 80px 0;
+  }
+  .catalog-title {
+    margin-bottom: 64px;
   }
   .catalog-card {
     flex-basis: calc((100% - 72px) / 4);
