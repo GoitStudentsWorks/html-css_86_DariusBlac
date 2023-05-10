@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-clock-shop/",
+    "build": "vite build --base=/html-css_86_DariusBlac/",
     "preview": "vite preview"
   },
   "devDependencies": {
